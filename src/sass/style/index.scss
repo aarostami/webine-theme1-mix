@@ -1,8 +1,11 @@
 main {
 	height: 3200px;
 	background-color: #e5e5e5;
-	z-index: 5;
-
+	z-index: -10;
+	.parallax-window {
+		min-height: 300px;
+		background: transparent;
+	}
 	#service {
 		margin-top: 374px;
 
@@ -30,7 +33,7 @@ main {
 	}
 
 	#about {
-		padding-top: 90px;
+		padding-top: 10px;
 
 		img {
 			max-width: 100%;
@@ -158,6 +161,10 @@ main {
 
 			.owl-stage-outer .owl-stage .owl-item {
 				// width: 5.2% !important;
+			}
+
+			.owl-nav {
+				display: none;
 			}
 
 			/* .owl-nav {
@@ -320,6 +327,10 @@ main {
 				// width: 5.2% !important;
 			}
 
+			.owl-nav {
+				display: none;
+			}
+
 			/* .owl-nav {
 				display: inline-block;
 				position: absolute;
@@ -478,6 +489,10 @@ main {
 
 			.owl-stage-outer .owl-stage .owl-item {
 				// width: 5.2% !important;
+			}
+
+			.owl-nav {
+				display: none;
 			}
 
 			/* .owl-nav {
@@ -639,7 +654,7 @@ main {
 		height: 412px;
 		position: absolute;
 		background-color: #0e73e5;
-		z-index: -1;
+		z-index: 20;
 		top: 0%;
 		left: 0%;
 
