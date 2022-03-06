@@ -1,0 +1,498 @@
+main {
+	height: 3200px;
+	background-color: #e5e5e5;
+	z-index: 5;
+
+	#service {
+		margin-top: 374px;
+
+		h4 {
+			font-weight: 600;
+			font-size: 28px;
+
+			h6 {
+				font-weight: 500;
+				font-size: 17px;
+				color: #999999;
+			}
+		}
+
+		.card {
+			img {
+				width: 40px;
+				height: 40px;
+			}
+
+			.card-body {
+				padding-top: 25px;
+			}
+		}
+	}
+
+	#about {
+		padding-top: 90px;
+
+		img {
+			max-width: 100%;
+		}
+
+		div.row {
+			div:first-child {
+				padding-left: 0;
+			}
+
+			div:last-child {
+				padding-top: 56px;
+				padding-left: 56px;
+
+				h3 {
+					width: 484px;
+					font-size: 40px;
+				}
+
+				ul {
+					padding-left: 1rem;
+				}
+
+				button {
+					margin-top: 60px;
+					padding: 9px 32px;
+					padding-left: 5px;
+					font-weight: 600;
+					font-size: 20px;
+					text-transform: uppercase;
+
+					span {
+						transition: all 0.4s;
+					}
+
+					span::before {
+						content: "\2192";
+						font-size: 25px;
+						transition: 0.4s;
+						opacity: 0;
+					}
+
+					&:hover {
+					}
+
+					&:hover span::before {
+						opacity: 1;
+						margin-right: 25px;
+					}
+				}
+			}
+		}
+	}
+
+	#portfolio {
+		margin-top: 120px;
+
+		h4 {
+			font-weight: 600;
+			font-size: 28px;
+		}
+
+		.side_carousel1 {
+			width: 65px;
+			height: 255px;
+			display: inline-block;
+			position: absolute;
+			left: 18%;
+
+			h6 {
+				transform: rotate(-90deg);
+				width: 140px;
+				position: absolute;
+				left: -52%;
+				top: 45%;
+			}
+		}
+
+		.carousel1 {
+			.item {
+				position: relative;
+
+				.overlay-item1 {
+					visibility: hidden;
+					opacity: 0;
+					position: absolute;
+					top: 0;
+					height: 100%;
+					transition: all 0.4s;
+
+					button {
+						display: inline-block;
+						width: 45%;
+						transition: all 0.4s;
+						padding: 0 !important;
+						padding-right: 10px !important;
+
+						span {
+							transition: all 0.4s;
+						}
+
+						span::before {
+							content: "\2192";
+							font-size: 25px;
+							transition: 0.4s;
+							opacity: 0;
+						}
+
+						&:hover {
+							width: 50%;
+						}
+
+						&:hover span::before {
+							opacity: 1;
+							margin-right: 15px;
+						}
+					}
+				}
+
+				&:hover .overlay-item1 {
+					visibility: visible;
+					opacity: 1;
+				}
+			}
+
+			.owl-stage-outer .owl-stage .owl-item {
+				// width: 5.2% !important;
+			}
+			.owl-nav {
+				display: inline-block;
+				position: absolute;
+				right: -24%;
+				bottom: 8.5%;
+				height: 255px;
+				width: 160px;
+				background-color: #0e73e5;
+
+				button:first-of-type {
+					background-color: white;
+					margin: 8px 8px;
+					padding: 8px 20px !important;
+					position: absolute;
+					bottom: 10px;
+					left: 12px;
+
+					span {
+						font-size: 30px;
+						color: #0e73e5;
+					}
+				}
+
+				button:last-of-type {
+					background-color: white;
+					margin: 8px 8px;
+					padding: 8px 20px !important;
+					position: absolute;
+					bottom: 10px;
+					right: 12px;
+
+					span {
+						font-size: 30px;
+						color: #0e73e5;
+					}
+				}
+			}
+
+			div {
+				img {
+					width: 255px;
+					height: 255px;
+					border: 2px solid #0e73e5;
+				}
+			}
+		}
+
+		.side_carousel2 {
+			width: 65px;
+			height: 255px;
+			display: inline-block;
+			position: absolute;
+			left: 18%;
+
+			h6 {
+				transform: rotate(-90deg);
+				width: 140px;
+				position: absolute;
+				left: -52%;
+				top: 35%;
+			}
+		}
+
+		.carousel2 {
+			.item {
+				position: relative;
+
+				.overlay-item2 {
+					visibility: hidden;
+					opacity: 0;
+					position: absolute;
+					top: 0;
+					height: 100%;
+					transition: all 0.4s;
+
+					button {
+						display: inline-block;
+						width: 45%;
+						transition: all 0.4s;
+						padding: 0 !important;
+						padding-right: 10px !important;
+
+						span {
+							transition: all 0.4s;
+						}
+
+						span::before {
+							content: "\2192";
+							font-size: 25px;
+							transition: 0.4s;
+							opacity: 0;
+						}
+
+						&:hover {
+							width: 50%;
+						}
+
+						&:hover span::before {
+							opacity: 1;
+							margin-right: 15px;
+						}
+					}
+				}
+
+				&:hover .overlay-item2 {
+					visibility: visible;
+					opacity: 1;
+				}
+			}
+
+			.owl-stage-outer .owl-stage .owl-item {
+				// width: 5.2% !important;
+			}
+			.owl-nav {
+				display: inline-block;
+				position: absolute;
+				right: -24%;
+				bottom: 8.5%;
+				height: 255px;
+				width: 160px;
+				background-color: #0e73e5;
+
+				button:first-of-type {
+					background-color: white;
+					margin: 8px 8px;
+					padding: 8px 20px !important;
+					position: absolute;
+					bottom: 10px;
+					left: 12px;
+
+					span {
+						font-size: 30px;
+						color: #0e73e5;
+					}
+				}
+
+				button:last-of-type {
+					background-color: white;
+					margin: 8px 8px;
+					padding: 8px 20px !important;
+					position: absolute;
+					bottom: 10px;
+					right: 12px;
+
+					span {
+						font-size: 30px;
+						color: #0e73e5;
+					}
+				}
+			}
+
+			div {
+				img {
+					width: 255px;
+					height: 255px;
+					border: 2px solid #0e73e5;
+				}
+			}
+		}
+
+		.side_carousel3 {
+			width: 65px;
+			height: 255px;
+			display: inline-block;
+			position: absolute;
+			left: 18%;
+
+			h6 {
+				transform: rotate(-90deg);
+				width: 140px;
+				position: absolute;
+				left: -52%;
+				top: 35%;
+			}
+		}
+
+		.carousel3 {
+			.item {
+				position: relative;
+
+				.overlay-item3 {
+					visibility: hidden;
+					opacity: 0;
+					position: absolute;
+					top: 0;
+					height: 100%;
+					transition: all 0.4s;
+
+					button {
+						display: inline-block;
+						width: 45%;
+						transition: all 0.4s;
+						padding: 0 !important;
+						padding-right: 10px !important;
+
+						span {
+							transition: all 0.4s;
+						}
+
+						span::before {
+							content: "\2192";
+							font-size: 25px;
+							transition: 0.4s;
+							opacity: 0;
+						}
+
+						&:hover {
+							width: 50%;
+						}
+
+						&:hover span::before {
+							opacity: 1;
+							margin-right: 15px;
+						}
+					}
+				}
+
+				&:hover .overlay-item3 {
+					visibility: visible;
+					opacity: 1;
+				}
+			}
+
+			.owl-stage-outer .owl-stage .owl-item {
+				// width: 5.2% !important;
+			}
+			.owl-nav {
+				display: inline-block;
+				position: absolute;
+				right: -24%;
+				bottom: 8.5%;
+				height: 255px;
+				width: 160px;
+				background-color: #0e73e5;
+
+				button:first-of-type {
+					background-color: white;
+					margin: 8px 8px;
+					padding: 8px 20px !important;
+					position: absolute;
+					bottom: 10px;
+					left: 12px;
+
+					span {
+						font-size: 30px;
+						color: #0e73e5;
+					}
+				}
+
+				button:last-of-type {
+					background-color: white;
+					margin: 8px 8px;
+					padding: 8px 20px !important;
+					position: absolute;
+					bottom: 10px;
+					right: 12px;
+
+					span {
+						font-size: 30px;
+						color: #0e73e5;
+					}
+				}
+			}
+
+			div {
+				img {
+					width: 255px;
+					height: 255px;
+					border: 2px solid #0e73e5;
+				}
+			}
+		}
+	}
+
+	#contact {
+		margin-top: 120px;
+		padding-bottom: 120px;
+
+		h4 {
+			font-weight: 600;
+			font-size: 28px;
+		}
+
+		h6 {
+			font-weight: 500;
+			font-size: 17px;
+		}
+
+		form {
+			.form-group {
+
+				input {
+					width: 445px;
+				}
+			}
+
+			div div button {
+				padding-left: 20px !important;
+
+					span {
+						transition: all 0.4s;
+					}
+
+					span::before {
+						content: "\2192";
+						font-size: 25px;
+						transition: 0.4s;
+						opacity: 0;
+					}
+
+					&:hover {
+					}
+
+					&:hover span::before {
+						opacity: 1;
+						margin-right: 15px;
+					}
+				}
+			}
+		}
+
+		.row .backimg {
+			width: 284px;
+			height: 412px;
+			position: absolute;
+			background-color: #0e73e5;
+			z-index: -1;
+			top: 0%;
+			left: 0%;
+
+			img {
+				width: 685px;
+				height: 400px;
+			}
+		}
+	}
+}
