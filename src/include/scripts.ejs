@@ -10,7 +10,7 @@
 <script src="js/app.js"></script>
 <script>
 	$(document).ready(function () {
-		$(".owl-carousel").owlCarousel({
+		$("#portfolio .owl-carousel").owlCarousel({
 			loop: true,
 			nav: true,
 			margin: 20,
@@ -32,7 +32,32 @@
 				}
 			}
 		});
+
+		//var owl = $("#portfolio .carousel1").owlCarousel();
+		$("#portfolio .nav_carousel1 .btncarousel1-prev").click(function () {
+			$("#portfolio .carousel1").trigger("prev.owl.carousel");
+		});
+		$("#portfolio .nav_carousel1 .btncarousel1-next").click(function () {
+			$("#portfolio .carousel1").trigger("next.owl.carousel", [300]);
+		});
+
+		$("#portfolio .nav_carousel2 .btncarousel2-prev").click(function () {
+			$("#portfolio .carousel2").trigger("prev.owl.carousel");
+		});
+		$("#portfolio .nav_carousel2 .btncarousel2-next").click(function () {
+			$("#portfolio .carousel2").trigger("next.owl.carousel", [300]);
+		});
+
+		$("#portfolio .nav_carousel3 .btncarousel3-prev").click(function () {
+			$("#portfolio .carousel3").trigger("prev.owl.carousel");
+		});
+		$("#portfolio .nav_carousel3 .btncarousel3-next").click(function () {
+			$("#portfolio .carousel3").trigger("next.owl.carousel", [300]);
+		});
+
+
 	});
+
 
 	// Disable form submissions if there are invalid fields
 	(function () {
