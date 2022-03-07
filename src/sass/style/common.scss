@@ -1,0 +1,45 @@
+@font-face {
+	font-family: "yekan";
+	font-style: normal;
+	font-weight: bold;
+	src: url("../fonts/iranyekanweblightfanum.eot");
+	src: url("../fonts/iranyekanweblightfanum.eot#iefix") format("embedded-opentype"),
+		/* IE6-8 */ url("../fonts/iranyekanweblightfanum.woff") format("woff"),
+		/* FfF3.6+, IE9, Chrome6+, Saf5.1+*/ url("../fonts/iranyekanweblightfanum.ttf") format("truetype");
+}
+
+/*---- my fonts ----*/
+@font-face {
+	font-family: Vazir;
+	src: url("../fonts/vazir/Vazir.eot");
+	src: url("../fonts/vazir/Vazir.eot?#iefix") format("embedded-opentype"),
+		url("../fonts/vazir/Vazir.woff2") format("woff2"), url("../fonts/vazir/Vazir.woff") format("woff"),
+		url("../fonts/vazir/Vazir.ttf") format("truetype");
+	font-weight: normal;
+}
+
+html {
+	box-sizing: border-box;
+}
+
+body {
+	font-family: "yekan" !important;
+	//font-family: vazir;
+	direction: ltr;
+
+	.parallax-mirror {
+		z-index: 0 !important;
+	}
+	
+}
+
+// sticky footer
+.Site {
+	display: flex;
+	min-height: 100vh;
+	flex-direction: column;
+}
+
+.Site-content {
+	flex: 1;
+}

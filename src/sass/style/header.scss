@@ -1,0 +1,132 @@
+header {
+	height: 630px;
+	padding-top: 2rem;
+	nav {
+		padding: 0 !important;
+		a {
+			width: 110px;
+			height: 64px;
+			background-color: #dedede;
+			font-weight: bold;
+			font-size: 16px;
+			color: #000;
+		}
+	}
+	#header {
+		position: relative;
+		margin-top: 70px;
+		h3 {
+			font-weight: normal;
+			font-size: 40px !important;
+			line-height: 60px;
+			width: 445px;
+		}
+
+		div:nth-of-type(2) {
+			padding-left: 4% !important;
+			h6 {
+				font-weight: 500;
+				font-size: 17px !important;
+				width: 445px;
+			}
+
+			button {
+				font-weight: 600;
+				font-size: 20px;
+				text-transform: uppercase;
+				padding-left: 10px;
+				transition: all .2s ease-in-out;
+
+				/* i {
+					// display: none;
+					font-size: 20px;
+					transform: scale(1.5, 1);
+					margin-right: 15px;
+					margin-left: 5px;
+					transition: all .2s ease-in-out;
+				}
+
+				&:hover i {
+					margin-right: 15px;
+				} */
+				
+				span {
+					transition: all .4s;
+				}
+
+				span::before {
+					content: "\2192";
+					font-size: 25px;
+					transition: .4s;
+					opacity: 0;
+				}
+
+				&:hover {
+					
+				}
+
+				&:hover span::before {
+					opacity: 1;
+					margin-right: 25px;
+				}
+			}
+		}
+
+		#backvid {
+			width: 284px;
+			height: 525px;
+			background-color: #fff;
+			position: absolute;
+			left: 17.1%;
+			top: 28.6%;
+			z-index: 20;
+		}
+
+		#vid {
+			margin-top: 8%;
+			background-image: url("../../images/unsplash-video-image.jpg");
+			width: 880px;
+			height: 508px;
+			background-size: contain;
+			z-index: 50;
+			/* .playbut {
+				width: 96px;
+				height: 96px;
+				background-color: #fff;
+				z-index: 50;
+				position: absolute;
+				border-radius: 50%;
+				left: 47%;
+				top: 58%;
+				.playbut_in {
+					// width: 50px;
+					// height: 50px;
+					border-style: solid;
+					border-width: 0px 30px 45px 30px;
+					border-color: transparent transparent #0E73E5;
+					position: absolute;
+					top: 25%;
+					left: 26%;
+					transform: rotate(90deg);
+				}
+			} */
+
+			i {
+				font-size: 65px;
+				color: #fff;
+				background-color: #0e73e5;
+				position: absolute;
+				border-radius: 50%;
+				left: 50%;
+				top: 58%;
+				transition: all 0.3s ease-in 0.2s;
+
+				&:hover {
+					transform: scale(1.5);
+					color: #0e73e5;
+					background-color: #fff;
+				}
+			}
+		}
+	}
+}
